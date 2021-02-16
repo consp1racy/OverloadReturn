@@ -8,7 +8,6 @@ mainClassName = 'com.jakewharton.overloadreturn.compiler.Main'
 
 dependencies {
   implementation project(':overload-return-annotations')
-  implementation deps.kotlin
   implementation deps.asm
   implementation deps.clikt
 

@@ -18,8 +18,7 @@ dependencies {
 
   implementation project(':overload-return-compiler')
   implementation deps.androidGradlePlugin
-  implementation deps.kotlin
-  
+
   testImplementation deps.junit
   testImplementation deps.truth
 }
